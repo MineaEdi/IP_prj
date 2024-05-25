@@ -96,7 +96,7 @@ namespace VideoFunctions
             }
         }
 
-        public static void ToggleFullscreen(Form form, Video video, Size formSize, Panel pnlVideo, Size pnlSize)
+        public static void ToggleFullscreen(Form form, Video video)
         {
             form.FormBorderStyle = FormBorderStyle.None;
             form.WindowState = FormWindowState.Maximized;
@@ -114,7 +114,13 @@ namespace VideoFunctions
 
         public static void AdjustVolume(Video video, TrackBar trackVolume)
         {
-            video.Audio.Volume = trackVolume.Value;
+            // Map the trackBar value from [0, 100] to the valid range for the Volume property [-10000, 0]
+            int volumeValue = (int)Math.Round((double)(trackVolume.Value - trackVolume.Minimum) / (trackVolume.Maximum - trackVolume.Minimum) * -10000);
+
+            // Ensure the volume value is within the valid range
+            volumeValue = Math.Max(-10000, Math.Min(0, volumeValue));
+
+            video.Audio.Volume = volumeValue;
         }
 
         public static void ToggleVolumeTrackBar(TrackBar trackVolume)

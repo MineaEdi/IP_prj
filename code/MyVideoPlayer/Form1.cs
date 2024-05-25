@@ -24,22 +24,19 @@ namespace MyVideoPlayer
         public FormMain()
         {
             InitializeComponent();
+
+            this.KeyPreview = true;
         }
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            formSize = new Size(this.Width, this.Height);
-            pnlSize = new Size(panelMainVideo.Width, panelMainVideo.Height);
-
-            Functionalities.LoadVideos(listBoxOfVideos, folderPath, out videoPaths, out selectedIndex);
-
-            if (videoPaths.Length > 0)
+            // Check if the video is already initialized
+            if (video == null)
             {
-                // Select the first video by default
-                listBoxOfVideos.SelectedIndex = selectedIndex;
-                video = new Video(videoPaths[selectedIndex], false);
-                video.Owner = panelMainVideo;
-                panelMainVideo.Size = pnlSize;
+                formSize = new Size(this.Width, this.Height);
+                pnlSize = new Size(panelMainVideo.Width, panelMainVideo.Height);
+
+                Functionalities.LoadVideos(listBoxOfVideos, folderPath, out videoPaths, out selectedIndex);
             }
         }
 
@@ -60,7 +57,7 @@ namespace MyVideoPlayer
 
         private void buttonFullscreen_Click(object sender, EventArgs e)
         {
-            Functionalities.ToggleFullscreen(this, video, formSize, panelMainVideo, pnlSize);
+            Functionalities.ToggleFullscreen(this, video);
         }
 
         private void buttonVolume_Click(object sender, EventArgs e)

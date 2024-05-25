@@ -62,9 +62,13 @@
             // trackBarVolume
             // 
             this.trackBarVolume.Location = new System.Drawing.Point(685, 348);
+            this.trackBarVolume.Minimum = 0;
+            this.trackBarVolume.Maximum = 100;
             this.trackBarVolume.Name = "trackBarVolume";
             this.trackBarVolume.Size = new System.Drawing.Size(104, 45);
             this.trackBarVolume.TabIndex = 2;
+            this.trackBarVolume.TickFrequency = 5;
+            this.trackBarVolume.Value = 100;
             this.trackBarVolume.Scroll += new System.EventHandler(this.trackBarVolume_Scroll);
             // 
             // buttonPlay
