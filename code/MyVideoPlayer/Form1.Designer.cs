@@ -40,6 +40,8 @@
             this.timerVideo = new System.Windows.Forms.Timer(this.components);
             this.labelVideo = new System.Windows.Forms.Label();
             this.labelVideoPosition = new System.Windows.Forms.Label();
+            this.buttonAbout = new System.Windows.Forms.Button();
+            this.buttonHelp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarVolume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +64,6 @@
             // trackBarVolume
             // 
             this.trackBarVolume.Location = new System.Drawing.Point(685, 348);
-            this.trackBarVolume.Minimum = 0;
             this.trackBarVolume.Maximum = 100;
             this.trackBarVolume.Name = "trackBarVolume";
             this.trackBarVolume.Size = new System.Drawing.Size(104, 45);
@@ -141,11 +142,33 @@
             this.labelVideoPosition.Size = new System.Drawing.Size(0, 13);
             this.labelVideoPosition.TabIndex = 9;
             // 
+            // buttonAbout
+            // 
+            this.buttonAbout.Location = new System.Drawing.Point(604, 376);
+            this.buttonAbout.Name = "buttonAbout";
+            this.buttonAbout.Size = new System.Drawing.Size(75, 23);
+            this.buttonAbout.TabIndex = 10;
+            this.buttonAbout.Text = "Despre";
+            this.buttonAbout.UseVisualStyleBackColor = true;
+            this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
+            // 
+            // buttonHelp
+            // 
+            this.buttonHelp.Location = new System.Drawing.Point(604, 405);
+            this.buttonHelp.Name = "buttonHelp";
+            this.buttonHelp.Size = new System.Drawing.Size(75, 23);
+            this.buttonHelp.TabIndex = 11;
+            this.buttonHelp.Text = "Ajutor";
+            this.buttonHelp.UseVisualStyleBackColor = true;
+            this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 443);
+            this.Controls.Add(this.buttonHelp);
+            this.Controls.Add(this.buttonAbout);
             this.Controls.Add(this.labelVideoPosition);
             this.Controls.Add(this.labelVideo);
             this.Controls.Add(this.buttonVolume);
@@ -179,6 +202,8 @@
         private System.Windows.Forms.Timer timerVideo;
         private System.Windows.Forms.Label labelVideo;
         private System.Windows.Forms.Label labelVideoPosition;
+        private System.Windows.Forms.Button buttonAbout;
+        private System.Windows.Forms.Button buttonHelp;
     }
 }
 

@@ -97,5 +97,15 @@ namespace MyVideoPlayer
         {
             Functionalities.PreviousVideo(listBoxOfVideos, videoPaths.Length, index => listBoxOfVideos.SelectedIndex = index);
         }
+
+        private void buttonAbout_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
