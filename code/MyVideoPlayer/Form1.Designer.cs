@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelMainVideo = new System.Windows.Forms.Panel();
             this.listBoxOfVideos = new System.Windows.Forms.ListBox();
             this.trackBarVolume = new System.Windows.Forms.TrackBar();
@@ -36,6 +37,7 @@
             this.buttonPrevious = new System.Windows.Forms.Button();
             this.buttonFullscreen = new System.Windows.Forms.Button();
             this.buttonVolume = new System.Windows.Forms.Button();
+            this.timerVideo = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.trackBarVolume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -137,6 +139,7 @@
         private System.Windows.Forms.Button buttonPrevious;
         private System.Windows.Forms.Button buttonFullscreen;
         private System.Windows.Forms.Button buttonVolume;
+        private System.Windows.Forms.Timer timerVideo;
     }
 }
 
