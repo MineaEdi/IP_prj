@@ -124,12 +124,25 @@ namespace VideoFunctions
 
         public static void UpdateVideoPosition(Video video, System.Windows.Forms.Label lblVideoPosition)
         {
-            int currentTime = Convert.ToInt32(video.CurrentPosition);
-            int maxTime = Convert.ToInt32(video.Duration);
+            if (video == null)
+            {
+                lblVideoPosition.Text = "00:00:00 / 00:00:00";
+                return;
+            }
 
-            lblVideoPosition.Text = string.Format("{0:00}:{1:00}:{2:00}", currentTime / 3600, (currentTime / 60) % 60, currentTime % 60)
-                                    + " / " +
-                                    string.Format("{0:00}:{1:00}:{2:00}", maxTime / 3600, (maxTime / 60) % 60, maxTime % 60);
+            try
+            {
+                int currentTime = Convert.ToInt32(video.CurrentPosition);
+                int maxTime = Convert.ToInt32(video.Duration);
+
+                lblVideoPosition.Text = string.Format("{0:00}:{1:00}:{2:00}", currentTime / 3600, (currentTime / 60) % 60, currentTime % 60)
+                                        + " / " +
+                                        string.Format("{0:00}:{1:00}:{2:00}", maxTime / 3600, (maxTime / 60) % 60, maxTime % 60);
+            }
+            catch (Exception ex)
+            {
+                lblVideoPosition.Text = "00:00:00 / 00:00:00";
+            }
         }
     }
 }

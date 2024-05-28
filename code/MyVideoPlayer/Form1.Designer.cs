@@ -42,6 +42,7 @@
             this.labelVideoPosition = new System.Windows.Forms.Label();
             this.buttonAbout = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
+            this.buttonOpenFolder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarVolume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -149,7 +150,7 @@
             this.buttonAbout.Name = "buttonAbout";
             this.buttonAbout.Size = new System.Drawing.Size(75, 23);
             this.buttonAbout.TabIndex = 10;
-            this.buttonAbout.Text = "Despre";
+            this.buttonAbout.Text = "About";
             this.buttonAbout.UseVisualStyleBackColor = true;
             this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
             // 
@@ -159,15 +160,26 @@
             this.buttonHelp.Name = "buttonHelp";
             this.buttonHelp.Size = new System.Drawing.Size(75, 23);
             this.buttonHelp.TabIndex = 11;
-            this.buttonHelp.Text = "Ajutor";
+            this.buttonHelp.Text = "Help";
             this.buttonHelp.UseVisualStyleBackColor = true;
             this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
+            // 
+            // buttonOpenFolder
+            // 
+            this.buttonOpenFolder.Location = new System.Drawing.Point(63, 408);
+            this.buttonOpenFolder.Name = "buttonOpenFolder";
+            this.buttonOpenFolder.Size = new System.Drawing.Size(75, 23);
+            this.buttonOpenFolder.TabIndex = 12;
+            this.buttonOpenFolder.Text = "Open";
+            this.buttonOpenFolder.UseVisualStyleBackColor = true;
+            this.buttonOpenFolder.Click += new System.EventHandler(this.buttonOpenFolder_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 443);
+            this.Controls.Add(this.buttonOpenFolder);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonAbout);
             this.Controls.Add(this.labelVideoPosition);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Label labelVideoPosition;
         private System.Windows.Forms.Button buttonAbout;
         private System.Windows.Forms.Button buttonHelp;
+        private System.Windows.Forms.Button buttonOpenFolder;
     }
 }
 
