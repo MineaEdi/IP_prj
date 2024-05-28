@@ -100,12 +100,12 @@ namespace MyVideoPlayer
 
         private void buttonAbout_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Acesta este un program ce poate reda fișiere media cu extensia .wmv");
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this, "PlayerVideo.chm");
         }
     }
 }

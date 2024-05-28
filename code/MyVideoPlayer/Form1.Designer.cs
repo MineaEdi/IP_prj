@@ -70,6 +70,7 @@
             this.trackBarVolume.TabIndex = 2;
             this.trackBarVolume.TickFrequency = 5;
             this.trackBarVolume.Value = 100;
+            this.trackBarVolume.Visible = false;
             this.trackBarVolume.Scroll += new System.EventHandler(this.trackBarVolume_Scroll);
             // 
             // buttonPlay
