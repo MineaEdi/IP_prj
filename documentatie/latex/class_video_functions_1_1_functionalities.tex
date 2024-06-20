@@ -1,0 +1,239 @@
+\doxysection{Video\+Functions.\+Functionalities Class Reference}
+\hypertarget{class_video_functions_1_1_functionalities}{}\label{class_video_functions_1_1_functionalities}\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+
+
+Class used as a dll that defines every functionality of the application.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a39853f7e6eb5e12218003b2418ac31d3}{Load\+Videos}} (List\+Box lst\+Videos, string folder\+Path, out string\mbox{[}$\,$\mbox{]} video\+Paths, out int selected\+Index)
+\begin{DoxyCompactList}\small\item\em Loads all .wmv video files from a specified directory into the given List\+Box. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a6a290e1d6281733663b514422144b16e}{Select\+Video}} (List\+Box lst\+Videos, Panel pnl\+Video, Size pnl\+Size, ref Video video, string\mbox{[}$\,$\mbox{]} video\+Paths, System.\+Windows.\+Forms.\+Label lbl\+Video, Button btn\+Play\+Pause, Timer tmr\+Video, Action next\+Video)
+\begin{DoxyCompactList}\small\item\em Selects and plays the video from the given List\+Box. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_ada1a0db4eb0a5ca73a90b55b14f44ed8}{Next\+Video}} (List\+Box lst\+Videos, int video\+Count, Action$<$ int $>$ set\+Selected\+Index)
+\begin{DoxyCompactList}\small\item\em Plays the next video from the List\+Box. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a55a7942f9e341090bf89c0cb69f113d5}{Previous\+Video}} (List\+Box lst\+Videos, int video\+Count, Action$<$ int $>$ set\+Selected\+Index)
+\begin{DoxyCompactList}\small\item\em Plays the previous video from the List\+Box. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a43a966862e3da100caefc2dcd7f29f3f}{Play\+Pause\+Video}} (Video video, Timer tmr\+Video, Button btn\+Play\+Pause)
+\begin{DoxyCompactList}\small\item\em Plays or pauses the current video. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a70b9f8fa11552365c0d2bde67b87eabe}{Toggle\+Fullscreen}} (Form form, Video video)
+\begin{DoxyCompactList}\small\item\em Activates fullscreen mode for video playback. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a78f6590966e3ef1d74d5a60f2d47e0ad}{Exit\+Fullscreen}} (Form form, Video video, Size form\+Size, Panel pnl\+Video, Size pnl\+Size)
+\begin{DoxyCompactList}\small\item\em Exits fullscreen mode and returns to the normal window size. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a37a2b1e74736682148490af7746fc5d8}{Adjust\+Volume}} (Video video, Track\+Bar track\+Volume)
+\begin{DoxyCompactList}\small\item\em Adjusts the volume of the video. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a3de87a36e675a4bbad2e0a90a3dcbaf6}{Toggle\+Volume\+Track\+Bar}} (Track\+Bar track\+Volume)
+\begin{DoxyCompactList}\small\item\em Toggles the visibility of the volume Track\+Bar. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_video_functions_1_1_functionalities_a5a2b173ef619e94effba6b8b8716ccda}{Update\+Video\+Position}} (Video video, System.\+Windows.\+Forms.\+Label lbl\+Video\+Position)
+\begin{DoxyCompactList}\small\item\em Updates the label displaying the current position and duration of the video. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class used as a dll that defines every functionality of the application. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_video_functions_1_1_functionalities_a37a2b1e74736682148490af7746fc5d8}\label{class_video_functions_1_1_functionalities_a37a2b1e74736682148490af7746fc5d8} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!AdjustVolume@{AdjustVolume}}
+\index{AdjustVolume@{AdjustVolume}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{AdjustVolume()}{AdjustVolume()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Adjust\+Volume (\begin{DoxyParamCaption}\item[{Video}]{video,  }\item[{Track\+Bar}]{track\+Volume }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adjusts the volume of the video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em video} & The video object\\
+\hline
+{\em track\+Volume} & The volume Track\+Bar\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a78f6590966e3ef1d74d5a60f2d47e0ad}\label{class_video_functions_1_1_functionalities_a78f6590966e3ef1d74d5a60f2d47e0ad} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!ExitFullscreen@{ExitFullscreen}}
+\index{ExitFullscreen@{ExitFullscreen}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{ExitFullscreen()}{ExitFullscreen()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Exit\+Fullscreen (\begin{DoxyParamCaption}\item[{Form}]{form,  }\item[{Video}]{video,  }\item[{Size}]{form\+Size,  }\item[{Panel}]{pnl\+Video,  }\item[{Size}]{pnl\+Size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Exits fullscreen mode and returns to the normal window size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em form} & The main form\\
+\hline
+{\em video} & The video object\\
+\hline
+{\em form\+Size} & The initial size of the form\\
+\hline
+{\em pnl\+Video} & The video panel\\
+\hline
+{\em pnl\+Size} & The size of the video panel\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a39853f7e6eb5e12218003b2418ac31d3}\label{class_video_functions_1_1_functionalities_a39853f7e6eb5e12218003b2418ac31d3} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!LoadVideos@{LoadVideos}}
+\index{LoadVideos@{LoadVideos}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{LoadVideos()}{LoadVideos()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Load\+Videos (\begin{DoxyParamCaption}\item[{List\+Box}]{lst\+Videos,  }\item[{string}]{folder\+Path,  }\item[{out string\mbox{[}$\,$\mbox{]}}]{video\+Paths,  }\item[{out int}]{selected\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads all .wmv video files from a specified directory into the given List\+Box. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lst\+Videos} & The List\+Box to display the videos\\
+\hline
+{\em folder\+Path} & The path to the directory containing the videos\\
+\hline
+{\em video\+Paths} & Array of strings containing the file paths\\
+\hline
+{\em selected\+Index} & Index of the selected video\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_ada1a0db4eb0a5ca73a90b55b14f44ed8}\label{class_video_functions_1_1_functionalities_ada1a0db4eb0a5ca73a90b55b14f44ed8} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!NextVideo@{NextVideo}}
+\index{NextVideo@{NextVideo}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{NextVideo()}{NextVideo()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Next\+Video (\begin{DoxyParamCaption}\item[{List\+Box}]{lst\+Videos,  }\item[{int}]{video\+Count,  }\item[{Action$<$ int $>$}]{set\+Selected\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Plays the next video from the List\+Box. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lst\+Videos} & The List\+Box containing the video list\\
+\hline
+{\em video\+Count} & The total number of videos\\
+\hline
+{\em set\+Selected\+Index} & Action to set the selected index\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a43a966862e3da100caefc2dcd7f29f3f}\label{class_video_functions_1_1_functionalities_a43a966862e3da100caefc2dcd7f29f3f} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!PlayPauseVideo@{PlayPauseVideo}}
+\index{PlayPauseVideo@{PlayPauseVideo}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{PlayPauseVideo()}{PlayPauseVideo()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Play\+Pause\+Video (\begin{DoxyParamCaption}\item[{Video}]{video,  }\item[{Timer}]{tmr\+Video,  }\item[{Button}]{btn\+Play\+Pause }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Plays or pauses the current video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em video} & The video object\\
+\hline
+{\em tmr\+Video} & Timer for updating the video position\\
+\hline
+{\em btn\+Play\+Pause} & The Play/\+Pause button\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a55a7942f9e341090bf89c0cb69f113d5}\label{class_video_functions_1_1_functionalities_a55a7942f9e341090bf89c0cb69f113d5} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!PreviousVideo@{PreviousVideo}}
+\index{PreviousVideo@{PreviousVideo}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{PreviousVideo()}{PreviousVideo()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Previous\+Video (\begin{DoxyParamCaption}\item[{List\+Box}]{lst\+Videos,  }\item[{int}]{video\+Count,  }\item[{Action$<$ int $>$}]{set\+Selected\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Plays the previous video from the List\+Box. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lst\+Videos} & The List\+Box containing the video list\\
+\hline
+{\em video\+Count} & The total number of videos\\
+\hline
+{\em set\+Selected\+Index} & Action to set the selected index\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a6a290e1d6281733663b514422144b16e}\label{class_video_functions_1_1_functionalities_a6a290e1d6281733663b514422144b16e} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!SelectVideo@{SelectVideo}}
+\index{SelectVideo@{SelectVideo}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{SelectVideo()}{SelectVideo()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Select\+Video (\begin{DoxyParamCaption}\item[{List\+Box}]{lst\+Videos,  }\item[{Panel}]{pnl\+Video,  }\item[{Size}]{pnl\+Size,  }\item[{ref Video}]{video,  }\item[{string\mbox{[}$\,$\mbox{]}}]{video\+Paths,  }\item[{System\+::\+Windows\+::\+Forms\+::\+Label}]{lbl\+Video,  }\item[{Button}]{btn\+Play\+Pause,  }\item[{Timer}]{tmr\+Video,  }\item[{Action}]{next\+Video }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Selects and plays the video from the given List\+Box. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lst\+Videos} & The List\+Box containing the video list\\
+\hline
+{\em pnl\+Video} & The panel where the video will be played\\
+\hline
+{\em pnl\+Size} & The size of the video panel\\
+\hline
+{\em video} & Reference to the video object\\
+\hline
+{\em video\+Paths} & Array of strings containing the file paths\\
+\hline
+{\em lbl\+Video} & The label to display the video name\\
+\hline
+{\em btn\+Play\+Pause} & The Play/\+Pause button\\
+\hline
+{\em tmr\+Video} & Timer for updating the video position\\
+\hline
+{\em next\+Video} & Action to play the next video\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a70b9f8fa11552365c0d2bde67b87eabe}\label{class_video_functions_1_1_functionalities_a70b9f8fa11552365c0d2bde67b87eabe} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!ToggleFullscreen@{ToggleFullscreen}}
+\index{ToggleFullscreen@{ToggleFullscreen}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{ToggleFullscreen()}{ToggleFullscreen()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Toggle\+Fullscreen (\begin{DoxyParamCaption}\item[{Form}]{form,  }\item[{Video}]{video }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Activates fullscreen mode for video playback. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em form} & The main form\\
+\hline
+{\em video} & The video object\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a3de87a36e675a4bbad2e0a90a3dcbaf6}\label{class_video_functions_1_1_functionalities_a3de87a36e675a4bbad2e0a90a3dcbaf6} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!ToggleVolumeTrackBar@{ToggleVolumeTrackBar}}
+\index{ToggleVolumeTrackBar@{ToggleVolumeTrackBar}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{ToggleVolumeTrackBar()}{ToggleVolumeTrackBar()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Toggle\+Volume\+Track\+Bar (\begin{DoxyParamCaption}\item[{Track\+Bar}]{track\+Volume }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Toggles the visibility of the volume Track\+Bar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em track\+Volume} & The volume Track\+Bar\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_video_functions_1_1_functionalities_a5a2b173ef619e94effba6b8b8716ccda}\label{class_video_functions_1_1_functionalities_a5a2b173ef619e94effba6b8b8716ccda} 
+\index{VideoFunctions.Functionalities@{VideoFunctions.Functionalities}!UpdateVideoPosition@{UpdateVideoPosition}}
+\index{UpdateVideoPosition@{UpdateVideoPosition}!VideoFunctions.Functionalities@{VideoFunctions.Functionalities}}
+\doxysubsubsection{\texorpdfstring{UpdateVideoPosition()}{UpdateVideoPosition()}}
+{\footnotesize\ttfamily static void Video\+Functions.\+Functionalities.\+Update\+Video\+Position (\begin{DoxyParamCaption}\item[{Video}]{video,  }\item[{System\+::\+Windows\+::\+Forms\+::\+Label}]{lbl\+Video\+Position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Updates the label displaying the current position and duration of the video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em video} & The video object\\
+\hline
+{\em lbl\+Video\+Position} & The label displaying the video position\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/(\+Edi) facultate/\+IP/\+PROIECT/\+IP\+\_\+prj/code/\+Video\+Functions/\mbox{\hyperlink{_functionalities_8cs}{Functionalities.\+cs}}\end{DoxyCompactItemize}

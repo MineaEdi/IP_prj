@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a37a2b1e74736682148490af7746fc5d8"><param name="Name" value="AdjustVolume(Video video, TrackBar trackVolume)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html#a369bd62a361d79c8831805f01782a79a"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a78f6590966e3ef1d74d5a60f2d47e0ad"><param name="Name" value="ExitFullscreen(Form form, Video video, Size formSize, Panel pnlVideo, Size pnlSize)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html#aacebea436b14b93eec72cfa7fd038c47"><param name="Name" value="FormMain()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a39853f7e6eb5e12218003b2418ac31d3"><param name="Name" value="LoadVideos(ListBox lstVideos, string folderPath, out string[] videoPaths, out int selectedIndex)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_my_video_player.html"><param name="Name" value="MyVideoPlayer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html"><param name="Name" value="MyVideoPlayer::FormMain"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html"><param name="Name" value="MyVideoPlayer::FormMain"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html#a369bd62a361d79c8831805f01782a79a"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html"><param name="Name" value="MyVideoPlayer::FormMain"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_my_video_player_1_1_form_main.html#aacebea436b14b93eec72cfa7fd038c47"><param name="Name" value="FormMain()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_my_video_player_1_1_properties.html"><param name="Name" value="MyVideoPlayer::Properties"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#ada1a0db4eb0a5ca73a90b55b14f44ed8"><param name="Name" value="NextVideo(ListBox lstVideos, int videoCount, Action&lt; int &gt; setSelectedIndex)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a43a966862e3da100caefc2dcd7f29f3f"><param name="Name" value="PlayPauseVideo(Video video, Timer tmrVideo, Button btnPlayPause)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a55a7942f9e341090bf89c0cb69f113d5"><param name="Name" value="PreviousVideo(ListBox lstVideos, int videoCount, Action&lt; int &gt; setSelectedIndex)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a6a290e1d6281733663b514422144b16e"><param name="Name" value="SelectVideo(ListBox lstVideos, Panel pnlVideo, Size pnlSize, ref Video video, string[] videoPaths, System.Windows.Forms.Label lblVideo, Button btnPlayPause, Timer tmrVideo, Action nextVideo)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a70b9f8fa11552365c0d2bde67b87eabe"><param name="Name" value="ToggleFullscreen(Form form, Video video)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a3de87a36e675a4bbad2e0a90a3dcbaf6"><param name="Name" value="ToggleVolumeTrackBar(TrackBar trackVolume)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a5a2b173ef619e94effba6b8b8716ccda"><param name="Name" value="UpdateVideoPosition(Video video, System.Windows.Forms.Label lblVideoPosition)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_video_functions.html"><param name="Name" value="VideoFunctions"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a37a2b1e74736682148490af7746fc5d8"><param name="Name" value="AdjustVolume(Video video, TrackBar trackVolume)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a78f6590966e3ef1d74d5a60f2d47e0ad"><param name="Name" value="ExitFullscreen(Form form, Video video, Size formSize, Panel pnlVideo, Size pnlSize)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a39853f7e6eb5e12218003b2418ac31d3"><param name="Name" value="LoadVideos(ListBox lstVideos, string folderPath, out string[] videoPaths, out int selectedIndex)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#ada1a0db4eb0a5ca73a90b55b14f44ed8"><param name="Name" value="NextVideo(ListBox lstVideos, int videoCount, Action&lt; int &gt; setSelectedIndex)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a43a966862e3da100caefc2dcd7f29f3f"><param name="Name" value="PlayPauseVideo(Video video, Timer tmrVideo, Button btnPlayPause)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a55a7942f9e341090bf89c0cb69f113d5"><param name="Name" value="PreviousVideo(ListBox lstVideos, int videoCount, Action&lt; int &gt; setSelectedIndex)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a6a290e1d6281733663b514422144b16e"><param name="Name" value="SelectVideo(ListBox lstVideos, Panel pnlVideo, Size pnlSize, ref Video video, string[] videoPaths, System.Windows.Forms.Label lblVideo, Button btnPlayPause, Timer tmrVideo, Action nextVideo)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a70b9f8fa11552365c0d2bde67b87eabe"><param name="Name" value="ToggleFullscreen(Form form, Video video)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a3de87a36e675a4bbad2e0a90a3dcbaf6"><param name="Name" value="ToggleVolumeTrackBar(TrackBar trackVolume)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html"><param name="Name" value="VideoFunctions::Functionalities"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_video_functions_1_1_functionalities.html#a5a2b173ef619e94effba6b8b8716ccda"><param name="Name" value="UpdateVideoPosition(Video video, System.Windows.Forms.Label lblVideoPosition)"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

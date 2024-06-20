@@ -24,6 +24,9 @@ using VideoFunctions;
 
 namespace MyVideoPlayer
 {
+    /// <summary>
+    /// The main class used for the connection with the user interface 
+    /// </summary>
     public partial class FormMain : Form
     {
         // Variables necessary for the video player to function

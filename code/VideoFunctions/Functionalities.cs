@@ -24,6 +24,9 @@ using Microsoft.DirectX.AudioVideoPlayback;
 
 namespace VideoFunctions
 {
+    /// <summary>
+    /// Class used as a dll that defines every functionality of the application
+    /// </summary>
     public class Functionalities
     {
         /// <summary>
